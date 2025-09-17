@@ -1,0 +1,51 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    width: 450px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#Título {
+    font-size: 21;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #b1ed9a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   }
+
+#Personalizado {
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 3px 0;
+    width: 340px;
+}
+
+button {
+    background-color: #b1ed9a;
+    border-color: white;
+    font-size: 16px;
+    width: 110px;
+    box-sizing: border-box;
+    padding: 2px;
+    margin: 3px 0;
+}
+
+#paragrafo-valores {
+    font-size: 20px;
+    margin: 8px;
+}
