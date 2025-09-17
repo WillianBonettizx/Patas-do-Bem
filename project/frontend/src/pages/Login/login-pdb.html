@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Patas do Bem</title>
+    <link rel="stylesheet" href="/project/frontend/src/pages/Login/login-pdb.css">
+</head>
+<body>
+    <div class="conteiner">
+        <img src="/project/frontend/src/pages/Login/img/Cachorrinho-login.png" alt="Cachorrinho-Icon" class="cachorrinho">
+
+        <div id="Login-cabeçalho">
+            <h1>Login - Patas do Bem</h1>
+            <p>Entre na sua conta e fique por dentro de tudo sobre nossos amigos de quatro patas!</p>
+        </div>
+
+        <div id="Login-dados">
+            <!-- Usuário -->
+            <label for="usuario-login"><strong>Usuário</strong></label>
+            <input type="text" id="usuario-login" placeholder="Digite seu usuário">
+            
+            <!-- Senha -->
+            <label for="senha-login"><strong>Senha</strong></label>
+            <input type="password" id="senha-login" placeholder="Digite sua senha">
+        </div>
+
+        <div id="login">
+            <button id="botao-login">Fazer login</button>
+            <div id="mensagem-erro"></div> <!-- Aqui vai a mensagem de erro -->
+        </div>
+
+        <div class="fazer-cadastro">
+            <p id="just-cadastro">Ainda não é um cliente?</p>
+            <button id="botao-cadastro">Fazer Cadastro</button>
+        </div>
+    </div>
+
+    <script src="/JS/mensagem-erro.js"></script>
+</body>
+</html>
