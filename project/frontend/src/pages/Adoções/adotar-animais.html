@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Patas do Bem — Adote um Amigo</title>
+  <link rel="stylesheet" href="/project/frontend/src/pages/Adoções/Styles-adotar-animais.css">
+</head>
+<body>
+  <header>
+    <h1>Patas do Bem</h1>
+    <nav>
+      <a href="/project/frontend/public/index.html">Início</a>
+      <a href="/project/frontend/src/pages/Doações/Doações.html">Doe</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Animais para adoção</h2>
+      <p>Conheça alguns dos nossos amigos que estão em busca de um lar cheio de carinho e cuidado.</p>
+      <div class="animals">
+        <div class="animal">
+          <img src="/project/frontend/src/pages/Adoções/img/cachorro1.png" alt="Cachorro para adoção">
+          <h3>Rex</h3>
+          <p>Macho • 2 anos • Vacinado <br>Timbó</p>
+          <a href="#" class="btn">Quero adotar</a>
+        </div>
+        <div class="animal">
+          <img src="/project/frontend/src/pages/Adoções/img/cachorro2.png" alt="Gato para adoção">
+          <h3>Luna</h3>
+          <p>Fêmea • 1 ano • Castrada <br>Benedito Novo</p>
+          <a href="#" class="btn">Quero adotar</a>
+        </div>
+        <div class="animal">
+          <img src="/project/frontend/src/pages/Adoções/img/cachorro3.png" alt="Cachorro para adoção">
+          <h3>Bob</h3>
+          <p>Macho • 3 anos • Carinhoso<br> Rio dos Cedros</p>
+          <a href="#" class="btn">Quero adotar</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nova seção de comentários -->
+    <section class="comments">
+      <h2>Histórias de Adoção</h2>
+      <div class="comment">
+        <p><strong>Ana Paula (Blumenau):</strong> “Adotei a Belinha há 6 meses e ela trouxe muita alegria para nossa casa. Não consigo mais imaginar minha vida sem ela!”</p>
+      </div>
+      <div class="comment">
+        <p><strong>João e Carla (Timbó):</strong> “O Julio chegou tímido, mas hoje é o guardião da família. Obrigado Patas do Bem por nos conectar com esse amigo incrível.”</p>
+      </div>
+      <div class="comment">
+        <p><strong>Mariana (Indaial):</strong> “Sempre quis um gato e encontrei a Bel. Ela é super carinhosa e se adaptou rapidamente. Experiência maravilhosa!”</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © <span id="year"></span> Patas do Bem • Adoção responsável
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
