@@ -1,0 +1,49 @@
+.conteiner {
+    border: 2px solid #333;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: white;
+    width: 450px;
+    max-width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#b1ed9a;
+    color:#222;
+    line-height:1.5;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#h1{
+    font-size: 27px;
+}
+
+label {
+    font-size: 17px;
+    display: block;
+    margin-top: 2%;
+}
+
+input {
+    width: 100%;
+    padding: 0.8%;
+    box-sizing: border-box;
+}
+
+#button {
+    background-color: #b1ed9a;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-color: white;
+    width: 100%;
+    padding: 2%;
+    margin-top: 3%;
+}
