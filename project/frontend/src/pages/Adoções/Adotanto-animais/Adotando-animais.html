@@ -5,12 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style-Adotando-Animais.css">
     <title>Adotando Animais</title>
+    <link rel="icon" href="/project/frontend/favicon-global/favicon.ico" type="image/x-icon">
+    <style>
+        /* Fundo escuro (overlay) */
+        #overlay {
+            display: none; /* começa invisível */
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 999;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Caixa de mensagem */
+        #mensagem {
+            background: #fff;
+            padding: 20px 40px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 18px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+        }
+    </style>
 </head>
 <body>
     <div class="conteiner">
         <h1 id="h1">Faça sua adoção</h1>
 
-        <p>Antes de adotar preecha este formulário</p>
+        <p>Antes de adotar preencha este formulário</p>
 
         <div class="Dados-Adoção">
             <label for="Nome">Nome Completo</label>
@@ -22,8 +46,6 @@
             <label for="CPF">CPF</label>
             <input type="number">
 
-            <label for="Endereço">Endereço:</label>
-            
             <label for="Cidade">Cidade</label>
             <input type="text">
 
@@ -36,10 +58,15 @@
             <label for="Email">Email para contato</label>
             <input type="text">
 
-            <a href="Mens-Adoção.html"><button type="button" id="button">Enviar</button></a>
-            </select>
+            <button type="button" id="button">Enviar</button>
         </div>
     </div>
-    
+
+    <!-- Overlay e mensagem -->
+    <div id="overlay">
+        <div id="mensagem">✅ Formulário enviado com sucesso! <br> Resposta dentro de 1 mês!</div>
+    </div>
+
+    <script src="adontando-script.js"></script>
 </body>
 </html>
