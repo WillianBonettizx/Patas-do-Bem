@@ -89,3 +89,33 @@ footer{
     font-size:14px;
     color:#555;
 }
+
+#btn-1, #btn-3{
+    display:inline-block;
+    padding:8px 12px;
+    margin-top:8px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    background:red;
+    color:#000000;
+}
+
+#btn-2{
+    display:inline-block;
+    padding:8px 12px;
+    margin-top:8px;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:bold;
+    background:#b1ed9a;
+    color:#000000;
+}
+
+.animal {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
